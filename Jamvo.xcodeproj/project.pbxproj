@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFAF2AF723C14E170075968F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF2AF623C14E170075968F /* AppDelegate.swift */; };
+		BFAF2AF923C14E170075968F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF2AF823C14E170075968F /* SceneDelegate.swift */; };
+		BFAF2AFB23C14E170075968F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF2AFA23C14E170075968F /* ViewController.swift */; };
+		BFAF2AFE23C14E170075968F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAF2AFC23C14E170075968F /* Main.storyboard */; };
+		BFAF2B0123C14E170075968F /* Jamvo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFAF2AFF23C14E170075968F /* Jamvo.xcdatamodeld */; };
+		BFAF2B0323C14E180075968F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAF2B0223C14E180075968F /* Assets.xcassets */; };
+		BFAF2B0623C14E180075968F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAF2B0423C14E180075968F /* LaunchScreen.storyboard */; };
+		BFAF2B1123C14E180075968F /* JamvoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF2B1023C14E180075968F /* JamvoTests.swift */; };
+		BFAF2B1C23C14E180075968F /* JamvoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF2B1B23C14E180075968F /* JamvoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFAF2B0D23C14E180075968F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFAF2AEB23C14E170075968F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFAF2AF223C14E170075968F;
+			remoteInfo = Jamvo;
+		};
+		BFAF2B1823C14E180075968F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFAF2AEB23C14E170075968F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFAF2AF223C14E170075968F;
+			remoteInfo = Jamvo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFAF2AF323C14E170075968F /* Jamvo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jamvo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAF2AF623C14E170075968F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFAF2AF823C14E170075968F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BFAF2AFA23C14E170075968F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFAF2AFD23C14E170075968F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFAF2B0023C14E170075968F /* Jamvo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jamvo.xcdatamodel; sourceTree = "<group>"; };
+		BFAF2B0223C14E180075968F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFAF2B0523C14E180075968F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFAF2B0723C14E180075968F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAF2B0C23C14E180075968F /* JamvoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JamvoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAF2B1023C14E180075968F /* JamvoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamvoTests.swift; sourceTree = "<group>"; };
+		BFAF2B1223C14E180075968F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAF2B1723C14E180075968F /* JamvoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JamvoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAF2B1B23C14E180075968F /* JamvoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamvoUITests.swift; sourceTree = "<group>"; };
+		BFAF2B1D23C14E180075968F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFAF2AF023C14E170075968F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAF2B0923C14E180075968F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAF2B1423C14E180075968F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFAF2AEA23C14E170075968F = {
+			isa = PBXGroup;
+			children = (
+				BFAF2AF523C14E170075968F /* Jamvo */,
+				BFAF2B0F23C14E180075968F /* JamvoTests */,
+				BFAF2B1A23C14E180075968F /* JamvoUITests */,
+				BFAF2AF423C14E170075968F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFAF2AF423C14E170075968F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFAF2AF323C14E170075968F /* Jamvo.app */,
+				BFAF2B0C23C14E180075968F /* JamvoTests.xctest */,
+				BFAF2B1723C14E180075968F /* JamvoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFAF2AF523C14E170075968F /* Jamvo */ = {
+			isa = PBXGroup;
+			children = (
+				BFAF2AF623C14E170075968F /* AppDelegate.swift */,
+				BFAF2AF823C14E170075968F /* SceneDelegate.swift */,
+				BFAF2AFA23C14E170075968F /* ViewController.swift */,
+				BFAF2AFC23C14E170075968F /* Main.storyboard */,
+				BFAF2B0223C14E180075968F /* Assets.xcassets */,
+				BFAF2B0423C14E180075968F /* LaunchScreen.storyboard */,
+				BFAF2B0723C14E180075968F /* Info.plist */,
+				BFAF2AFF23C14E170075968F /* Jamvo.xcdatamodeld */,
+			);
+			path = Jamvo;
+			sourceTree = "<group>";
+		};
+		BFAF2B0F23C14E180075968F /* JamvoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFAF2B1023C14E180075968F /* JamvoTests.swift */,
+				BFAF2B1223C14E180075968F /* Info.plist */,
+			);
+			path = JamvoTests;
+			sourceTree = "<group>";
+		};
+		BFAF2B1A23C14E180075968F /* JamvoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFAF2B1B23C14E180075968F /* JamvoUITests.swift */,
+				BFAF2B1D23C14E180075968F /* Info.plist */,
+			);
+			path = JamvoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFAF2AF223C14E170075968F /* Jamvo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFAF2B2023C14E180075968F /* Build configuration list for PBXNativeTarget "Jamvo" */;
+			buildPhases = (
+				BFAF2AEF23C14E170075968F /* Sources */,
+				BFAF2AF023C14E170075968F /* Frameworks */,
+				BFAF2AF123C14E170075968F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jamvo;
+			productName = Jamvo;
+			productReference = BFAF2AF323C14E170075968F /* Jamvo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFAF2B0B23C14E180075968F /* JamvoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFAF2B2323C14E180075968F /* Build configuration list for PBXNativeTarget "JamvoTests" */;
+			buildPhases = (
+				BFAF2B0823C14E180075968F /* Sources */,
+				BFAF2B0923C14E180075968F /* Frameworks */,
+				BFAF2B0A23C14E180075968F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFAF2B0E23C14E180075968F /* PBXTargetDependency */,
+			);
+			name = JamvoTests;
+			productName = JamvoTests;
+			productReference = BFAF2B0C23C14E180075968F /* JamvoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFAF2B1623C14E180075968F /* JamvoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFAF2B2623C14E180075968F /* Build configuration list for PBXNativeTarget "JamvoUITests" */;
+			buildPhases = (
+				BFAF2B1323C14E180075968F /* Sources */,
+				BFAF2B1423C14E180075968F /* Frameworks */,
+				BFAF2B1523C14E180075968F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFAF2B1923C14E180075968F /* PBXTargetDependency */,
+			);
+			name = JamvoUITests;
+			productName = JamvoUITests;
+			productReference = BFAF2B1723C14E180075968F /* JamvoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFAF2AEB23C14E170075968F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = com.;
+				TargetAttributes = {
+					BFAF2AF223C14E170075968F = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					BFAF2B0B23C14E180075968F = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = BFAF2AF223C14E170075968F;
+					};
+					BFAF2B1623C14E180075968F = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = BFAF2AF223C14E170075968F;
+					};
+				};
+			};
+			buildConfigurationList = BFAF2AEE23C14E170075968F /* Build configuration list for PBXProject "Jamvo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFAF2AEA23C14E170075968F;
+			productRefGroup = BFAF2AF423C14E170075968F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFAF2AF223C14E170075968F /* Jamvo */,
+				BFAF2B0B23C14E180075968F /* JamvoTests */,
+				BFAF2B1623C14E180075968F /* JamvoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFAF2AF123C14E170075968F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAF2B0623C14E180075968F /* LaunchScreen.storyboard in Resources */,
+				BFAF2B0323C14E180075968F /* Assets.xcassets in Resources */,
+				BFAF2AFE23C14E170075968F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAF2B0A23C14E180075968F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAF2B1523C14E180075968F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFAF2AEF23C14E170075968F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAF2AFB23C14E170075968F /* ViewController.swift in Sources */,
+				BFAF2AF723C14E170075968F /* AppDelegate.swift in Sources */,
+				BFAF2AF923C14E170075968F /* SceneDelegate.swift in Sources */,
+				BFAF2B0123C14E170075968F /* Jamvo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAF2B0823C14E180075968F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAF2B1123C14E180075968F /* JamvoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAF2B1323C14E180075968F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAF2B1C23C14E180075968F /* JamvoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFAF2B0E23C14E180075968F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFAF2AF223C14E170075968F /* Jamvo */;
+			targetProxy = BFAF2B0D23C14E180075968F /* PBXContainerItemProxy */;
+		};
+		BFAF2B1923C14E180075968F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFAF2AF223C14E170075968F /* Jamvo */;
+			targetProxy = BFAF2B1823C14E180075968F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFAF2AFC23C14E170075968F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFAF2AFD23C14E170075968F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFAF2B0423C14E180075968F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFAF2B0523C14E180075968F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFAF2B1E23C14E180075968F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFAF2B1F23C14E180075968F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFAF2B2123C14E180075968F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jamvo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JG.Jamvo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFAF2B2223C14E180075968F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jamvo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JG.Jamvo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFAF2B2423C14E180075968F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JamvoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JG.JamvoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jamvo.app/Jamvo";
+			};
+			name = Debug;
+		};
+		BFAF2B2523C14E180075968F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JamvoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JG.JamvoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jamvo.app/Jamvo";
+			};
+			name = Release;
+		};
+		BFAF2B2723C14E180075968F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JamvoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JG.JamvoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jamvo;
+			};
+			name = Debug;
+		};
+		BFAF2B2823C14E180075968F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JamvoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JG.JamvoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jamvo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFAF2AEE23C14E170075968F /* Build configuration list for PBXProject "Jamvo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAF2B1E23C14E180075968F /* Debug */,
+				BFAF2B1F23C14E180075968F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFAF2B2023C14E180075968F /* Build configuration list for PBXNativeTarget "Jamvo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAF2B2123C14E180075968F /* Debug */,
+				BFAF2B2223C14E180075968F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFAF2B2323C14E180075968F /* Build configuration list for PBXNativeTarget "JamvoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAF2B2423C14E180075968F /* Debug */,
+				BFAF2B2523C14E180075968F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFAF2B2623C14E180075968F /* Build configuration list for PBXNativeTarget "JamvoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAF2B2723C14E180075968F /* Debug */,
+				BFAF2B2823C14E180075968F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BFAF2AFF23C14E170075968F /* Jamvo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BFAF2B0023C14E170075968F /* Jamvo.xcdatamodel */,
+			);
+			currentVersion = BFAF2B0023C14E170075968F /* Jamvo.xcdatamodel */;
+			path = Jamvo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BFAF2AEB23C14E170075968F /* Project object */;
+}
